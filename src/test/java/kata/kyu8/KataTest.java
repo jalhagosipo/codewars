@@ -17,4 +17,9 @@ class KataTest {
     public void tests() {
         assertEquals(-1, Kata.opposite(1));
     }
+
+    @Test
+    public void sampleTests() {
+        assertEquals("dlrow", Kata.solution("world"));
+    }
 }
