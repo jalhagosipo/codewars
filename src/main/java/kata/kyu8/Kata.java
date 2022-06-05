@@ -10,4 +10,9 @@ public class Kata {
     public static int makeNegative_best(final int x) {
         return -abs(x);
     }
+
+    public static int opposite(int number)
+    {
+        return -number;
+    }
 }

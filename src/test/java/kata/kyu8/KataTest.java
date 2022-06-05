@@ -12,4 +12,9 @@ class KataTest {
         assertEquals(-5, Kata.makeNegative(-5));
         assertEquals(0, Kata.makeNegative(0));
     }
+
+    @Test
+    public void tests() {
+        assertEquals(-1, Kata.opposite(1));
+    }
 }
