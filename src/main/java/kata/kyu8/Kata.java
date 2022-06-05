@@ -34,4 +34,12 @@ public class Kata {
     public static String solution_best(String str) {
         return new StringBuilder(str).reverse().toString();
     }
+
+    public static String numberToString(int num) {
+        return String.valueOf(num);
+    }
+
+    public static String numberToString_clever(int num) {
+        return ""+num;
+    }
 }
